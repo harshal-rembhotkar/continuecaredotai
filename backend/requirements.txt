@@ -1,0 +1,6 @@
+cognee
+fastapi[standard]
+uvicorn[standard]
+pydantic>=2.0
+python-dotenv
+httpx
