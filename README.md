@@ -74,16 +74,6 @@ ContinueCare.ai is built as a hospital product with role-based access:
 | **Patient** | Self-register on the login screen | Own health companion, own memory only |
 | **Doctor** | Staff login with `@continuecare.com` email (hospital-provisioned) | All registered patients, briefs, memory graphs |
 
-### Hospital staff (login only — cannot register)
-
-| Doctor | Specialization | Email | Default password |
-|--------|----------------|-------|------------------|
-| Dr. John Multispecialist | Multispecialist | john@continuecare.com | `continuecare` |
-| Dr. Sarah Chen | Cardiology | sarah.chen@continuecare.com | `continuecare` |
-| Dr. Michael Patel | Neurology | michael.patel@continuecare.com | `continuecare` |
-| Dr. Emily Rivera | Pediatrics | emily.rivera@continuecare.com | `continuecare` |
-| Dr. David Okonkwo | Internal Medicine | david.okonkwo@continuecare.com | `continuecare` |
-
 Override the staff password with `HOSPITAL_DOCTOR_PASSWORD` in `backend/.env`.
 
 ### How it works
